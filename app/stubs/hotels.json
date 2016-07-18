@@ -1,0 +1,65 @@
+[{
+    "id": "1",
+    "name": "Hyatt",
+    "address": "Viman Nagar",
+    "location": "Pune MH India",
+    "dayRate": "6000",
+    "nightRate": "7000",
+    "zip": "411001"
+}, {
+    "id": "2",
+    "name": "Atlantis The Palm Dubai",
+    "address": "United Arab Emirates",
+    "location": "Dubai",
+    "dayRate": "5000",
+    "nightRate": "6000",
+    "zip": "911001"
+}, {
+    "id": "3",
+    "name": "Bellagio",
+    "address": "Las Vegas",
+    "location": "United States",
+    "dayRate": "9000",
+    "nightRate": "10000",
+    "zip": "180001"
+}, {
+    "id": "4",
+    "name": "Taj",
+    "address": "Dhaula Kuan",
+    "location": "Delhi DL India",
+    "dayRate": "16000",
+    "nightRate": "17000",
+    "zip": "110001"
+}, {
+    "id": "5",
+    "name": "Oberoi",
+    "address": "Jeevan Nagar",
+    "location": "Chennai CH India",
+    "dayRate": "3000",
+    "nightRate": "4000",
+    "zip": "911001"
+}, {
+    "id": "6",
+    "name": "Jacksons",
+    "address": "MG Road",
+    "location": "Bangalore India",
+    "dayRate": "5000",
+    "nightRate": "6000",
+    "zip": "170001"
+}, {
+    "id": "7",
+    "name": "ITC Winsor",
+    "address": "Bellandur",
+    "location": "Pune MH India",
+    "dayRate": "6000",
+    "nightRate": "7000",
+    "zip": "411001"
+}, {
+    "id": "8",
+    "name": "Shangri-La Hotel",
+    "address": "United Arab Emirates",
+    "dayRate": "10000",
+    "nightRate": "11000",
+    "location": "Dubai",
+    "zip": "510001"
+}]

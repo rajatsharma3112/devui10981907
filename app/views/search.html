@@ -1,0 +1,19 @@
+<h3>{{pagetitle}}</h3>
+<form class="form-inline">
+  <div class="form-group">
+	<label for="SearchString">{{searchstring}} </label>
+	<input type="text" placeholder="Search" ng-model="searchText" class="form-control" id="SearchString" placeholder="">
+  </div>
+  <div class="form-group">
+	<label for="maximumlimits">{{maximumresults}} </label>
+	<select class="form-control" ng-model="MaximumResult" >
+	  <option value="">Please select maximum results</option>
+	  <option>5</option>
+	  <option>10</option>
+	  <option>20</option>
+	  <option>50</option>
+	  <option>100</option>
+	</select>
+  </div>
+  <button type="submit" class="btn btn-success" ng-click="findHotels(searchText/MaximumResult)">Find Hotels</button>
+</form>

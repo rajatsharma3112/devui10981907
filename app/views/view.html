@@ -1,0 +1,13 @@
+<form>
+	<h3>{{data.name}}</h3>
+	<dl class="dl-vertical">
+		<dd>{{data.address.address}}</dd>
+		<dd>{{data.address.location}}</dd>
+		<dd>{{data.address.zip}}</dd>
+		<br>
+		<dt>Day Rate: {{data.dayRate}}</dt>
+		<dt>Night Rate: {{data.nightRate}}</dt>
+
+	</dl>
+	<button type="submit" class="btn btn-success" ng-click="bookHotel()">Book Hotel</button>
+</form>

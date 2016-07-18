@@ -1,0 +1,33 @@
+<h3>{{pagetitle}}</h3>
+<button class="btn btn-primary" ng-click="changeResults()">Change Search</button>
+<br>
+<br>
+<!--begin of .table-->
+<div class="table-responsive">
+	<table ng-cloak summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>City, State</th>
+				<th>Zip</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody ng-repeat="data in data | filter: searchText | limitTo: MaximumResult">
+			<tr>
+				<td>{{data.name}}</td>
+				<td>{{data.address.address}}</td>
+				<td>{{data.address.location}}</td>
+				<td>{{data.address.zip}}</td>
+				<td><button class="btn btn-primary" ng-click="viewHotels(data.id)">View Hotel</button></td>
+			</tr>
+			<tr>
+		</tbody>
+		<tfoot>
+			<tr>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+<!--end of .table-->

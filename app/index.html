@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="myappApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hotel Booking Application</title>
+		<link rel="stylesheet" href="styles/styles.css">
+		<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<!--Top Container-->
+			<header>
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<div class="main-content-top">
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Main Container-->
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="main-content">
+						<div class="main-content-intro">
+							<h2>UI Case Study - Hotel Booking Application</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="main-content-bottom">
+					</div>
+				</div>
+			</div>
+			<!--Main Features-->
+			<div class="row">
+					<div class="main-features">
+						<div class="col-md-3  hidden-xs hidden-sm">
+							<img class="mainimage" src="images/main.jpg">
+						</div>
+						<div class="col-md-9 col-xs-12">
+							<ng-view></ng-view>
+						</div>
+					</div>
+			</div>
+			<footer>
+				<p>Accenture &copy; 2015</p>
+			</footer>
+		</div>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers/main.js"></script>
+		<script src="scripts/controllers/search.js"></script>
+		<script src="scripts/controllers/result.js"></script>
+		<script src="scripts/controllers/view.js"></script>		
+		<script src="scripts/factory/viewFactory.js"></script>
+		<script src="scripts/factory/resultFactory.js"></script>
+	</body>
+</html>
